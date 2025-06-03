@@ -3,7 +3,7 @@ ame: Deploy to S3
 on:
   push:
     branches:
-      - master  # This can be any branch you want to deploy from, typically 'main'
+      - main  # This can be any branch you want to deploy from, typically 'main'
 
 jobs:
   deploy:
